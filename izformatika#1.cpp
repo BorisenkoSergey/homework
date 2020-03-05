@@ -28,7 +28,7 @@ int main()
     for(int m = l+1 ; m < vct.size(); ++m)
     {
       int this_pair = vct[l] * vct[m];
-      if( (this_pair < check_sum) && (this_pair % 6 != 0) ) //главное условие
+      if( (this_pair < check_sum) && ((this_pair % 6) !=6) ) //главное условие
         check_sum = this_pair;        
     }
   } 
