@@ -19,7 +19,7 @@ int main()
   {
     for(int m = i+1 ; m < vct.size(); ++m)
     {
-      int this_pair = vctil] + vct[m];
+      int this_pair = vctil] * vct[m];
       if( (this_pair >= 0) && ( (this_pair % 2) == 0) )
         check_sum++;
     }
