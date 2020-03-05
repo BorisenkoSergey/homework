@@ -14,5 +14,19 @@ int main()
     vct.push_back(val);
   }
   
+  int check_sum = 0;
+  for(int i = 0 ; i < vct.size(); ++i)
+  {
+    for(int m = i+1 ; m < vct.size(); ++m)
+    {
+      int this_pair = vctil] + vct[m];
+      if( (this_pair >= 0) && ( (this_pair % 2) == 0) )
+        check_sum++;
+    }
+  }
+
+  cout << "result " << check_sum;
+  
+  
 return 0;
 }
