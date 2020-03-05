@@ -24,6 +24,9 @@ int main()
         check_sum = this_pair;        
     }
   } 
-  cout << "result " << check_sum;
+  if(check_sum == 999999)
+    cout << "FAIL";
+  else 
+    cout << check_sum;
   return 0;
 }
